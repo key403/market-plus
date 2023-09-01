@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --primary-color: rgb(10 137 32);
+  --secondary-color: rgb(164 199 53);
+  --third-color: rgb(229 248 227);
+
+  --primary-color-hover: rgb(7 117 27);
+}
+
+
+ .swiper-button-prev:after,
+ .swiper-button-next:after{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ .swiper-button-prev,
+ .swiper-button-next {
+  height: 58px;
+  width: 34px;
+  background-color: white;
+  color: rgb(102, 102, 102);
+  box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
+  border-radius: 4px;
+  transform: translateY(-10%);
+}
+.custom .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  left: 1px;
+}
+.custom .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  left: 0;
+}
+.swiper-button-next {
+  position: absolute;
+  right: 0;
+}
