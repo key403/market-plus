@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 import pollo1 from "./assets/pollo/pollo1.jpg";
 import pollo2 from "./assets/pollo/pollo2.jpg";
@@ -79,11 +79,15 @@ function App() {
       <Header />
       <main>
         <Swiper
+          autoplay={{
+            delay: 3500,
+            disableOnInteraction: false,
+          }}
           slidesPerView={1}
           spaceBetween={0}
           loop={true}
           navigation={true}
-          modules={[Navigation, Pagination]}
+          modules={[Navigation, Pagination, Autoplay]}
           className="h-[45vh] max-h-64 z-0"
         >
           <SwiperSlide>
