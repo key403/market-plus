@@ -12,6 +12,9 @@
   --primary-color-hover: rgb(7 117 27);
 }
 
+.font {
+  font-family: 'Montserrat', sans-serif;
+}
 
  .swiper-button-prev:after,
  .swiper-button-next:after{

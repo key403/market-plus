@@ -44,7 +44,7 @@ const Header = () => {
   const showMenu = ()=> {
     cerrarTodo()
     toggleMenu()
-    a()
+    // a()
   }
   const showOfertasMenu = ()=> {
     cerrarTodo()
@@ -125,7 +125,7 @@ const Header = () => {
         <div className='flex items-center gap-4'>
           <i className="ri-menu-line text-2xl self-end hidden"></i>
           <h1 className='text-4xl text-[--primary-color] font-medium'>
-            <a href="#">MarketPlus</a>
+            <a href="#" className='font font-bold'>MarketPlus</a>
           </h1>
         </div>
         
