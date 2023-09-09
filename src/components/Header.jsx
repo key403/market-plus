@@ -254,7 +254,7 @@ const Header = () => {
             <div className='flex flex-col gap-4'>
               <label className='flex items-center gap-4' htmlFor="check1">
                 <input className='min-w-[1.5rem] min-h-[1.5rem]' type="checkbox" id='check1' />
-                <span>Acepto recibir información de ofertas y promociones de Jumbo.cl</span>
+                <span>Acepto recibir información de ofertas y promociones de MarketPlus.com</span>
               </label>
 
               <label className='flex items-center gap-4' htmlFor="check2">
