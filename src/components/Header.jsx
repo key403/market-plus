@@ -55,6 +55,8 @@ const Header = () => {
     toggleCartMenu()
   }
   const toggleSinup = ()=> {
+    document.body.classList.toggle("overflow-hidden")
+
     overlay.current.classList.toggle("opacity-0")
     overlay.current.classList.toggle("pointer-events-none")
 
@@ -63,6 +65,8 @@ const Header = () => {
     logIn.current.classList.toggle("translate-y-1/2")
   }
   const toggleEntrada = ()=> {
+    document.body.classList.toggle("overflow-hidden")
+
     overlay.current.classList.toggle("opacity-0")
     overlay.current.classList.toggle("pointer-events-none")
       
@@ -71,6 +75,8 @@ const Header = () => {
     entrega.current.classList.toggle("translate-y-1/2")
   }
   const toggleRegister = ()=> {
+    document.body.classList.toggle("overflow-hidden")
+
     overlay.current.classList.toggle("opacity-0")
     overlay.current.classList.toggle("pointer-events-none")
 
@@ -79,12 +85,16 @@ const Header = () => {
     register.current.classList.toggle("translate-y-1/2")
   }
   const toggleMenu = ()=> {
+    document.body.classList.toggle("overflow-hidden")
+
     overlay.current.classList.toggle("opacity-0")
     overlay.current.classList.toggle("pointer-events-none")
 
     menu.current.classList.toggle("-translate-x-full")
   }
   const toggleOfertasMenu = ()=> {
+    document.body.classList.toggle("overflow-hidden")
+
     overlay.current.classList.toggle("opacity-0")
     overlay.current.classList.toggle("pointer-events-none")
 
@@ -97,6 +107,8 @@ const Header = () => {
     }
   }
   const toggleCartMenu = ()=> {
+    document.body.classList.toggle("overflow-hidden")
+
     overlay.current.classList.toggle("opacity-0")
     overlay.current.classList.toggle("pointer-events-none")
 
