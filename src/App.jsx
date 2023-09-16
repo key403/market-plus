@@ -219,6 +219,11 @@ function App() {
                 slidesPerGroup: 4,
                 spaceBetween: 10,
               },
+              1280: {
+                slidesPerView: 5,
+                slidesPerGroup: 5,
+                spaceBetween: 0,
+              },
             }}
             spaceBetween={0}
             navigation={true}
@@ -680,6 +685,11 @@ function App() {
                 slidesPerView: 4,
                 slidesPerGroup: 4,
                 spaceBetween: 10,
+              },
+              1280: {
+                slidesPerView: 5,
+                slidesPerGroup: 5,
+                spaceBetween: 0,
               },
             }}
             spaceBetween={0}
@@ -1146,6 +1156,11 @@ function App() {
                 slidesPerGroup: 4,
                 spaceBetween: 10,
               },
+              1280: {
+                slidesPerView: 5,
+                slidesPerGroup: 5,
+                spaceBetween: 0,
+              },
             }}
             spaceBetween={0}
             navigation={true}
@@ -1582,6 +1597,11 @@ function App() {
                 slidesPerView: 4,
                 slidesPerGroup: 4,
                 spaceBetween: 10,
+              },
+              1280: {
+                slidesPerView: 5,
+                slidesPerGroup: 5,
+                spaceBetween: 0,
               },
             }}
             spaceBetween={0}
